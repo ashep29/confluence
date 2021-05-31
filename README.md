@@ -1,5 +1,5 @@
 # Confluence
-Python implementation of the Confluence and Confluence NMS algorithms.
+Official Python implementation of the Confluence and Confluence NMS algorithms as described in [Confluence: A Robust Non-IoU Alternative to Non-Maxima Suppression in Object Detection](https://arxiv.org/abs/2012.00257)
 
 Confluence and Confluence-NMS are non-IoU alternatives to Greedy and Soft-NMS and their variants. They rely on a Manhattan Distance inspired proximity measure to retain true positives and suppress false positives. Proximity represents the sum of the vertical and horizonal distances between the upper left and lower right coordinates to two bounding boxes, as shown below:
 
